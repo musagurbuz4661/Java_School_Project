@@ -5,6 +5,7 @@ public class C01 {
         System.out.println("Musa branch");
         System.out.println(" 4 deneme musa ");
         System.out.println("5 deneme");
+        System.out.println("6 deneme");
 
     }
 }
