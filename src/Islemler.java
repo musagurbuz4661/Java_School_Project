@@ -77,8 +77,7 @@ public class Islemler {
                 "      2-ARAMA\n" +
                 "      3-LISTELEME\n" +
                 "      4-SILME\n" +
-                "      5-ANA MENU\n" +
-                "      0-CIKIS");
+                "      5-ANA MENU\n");
 
         System.out.println(Renklendirme.ANSI_GREEN + "Yapmak istediginiz islemi seciniz :" + Renklendirme.ANSI_RESET);
         String secilenislem = scan.next();
@@ -101,9 +100,7 @@ public class Islemler {
             case "5":
                 girisPaneli();
                 break;
-            case "0":
-                cikis();
-                break;
+
             default:
                 System.out.println(Renklendirme.ANSI_YELLOW_BACKGROUND + Renklendirme.ANSI_BLACK + "        Hatali giris yaptiniz       " + Renklendirme.ANSI_RESET);
                 Tread.sleep(3000);
